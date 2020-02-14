@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0023478B"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25px"
+        android:background="#0D47A1"
+        android:onClick="elementButtonListener"
+        android:orientation="vertical"
+        android:padding="20px">
+
+        <TextView
+            android:id="@+id/recordName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15px"
+            android:text="TextView"
+            android:textColor="#D3D3D3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recordTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#D3D3D3"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
